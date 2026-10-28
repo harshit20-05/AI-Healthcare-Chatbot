@@ -1135,7 +1135,7 @@ def show_login():
             <div class="login-subtitle">Your Premium Personal Clinical Health Companion 🩺</div>
         """, unsafe_allow_html=True)
         
-        email = st.text_input("📧 Gmail / Email Address", placeholder="e.g. ankit@gmail.com", key="login_email")
+        email = st.text_input("📧 Gmail / Email Address", placeholder="e.g. attriharshit2005@gmail.com", key="login_email")
         password = st.text_input("🔑 Password (any password accepted)", type="password", placeholder="••••••••", key="login_password")
         
         st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)

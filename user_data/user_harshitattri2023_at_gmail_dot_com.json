@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "email": "harshitattri2023@gmail.com",
+    "name": "harshit",
+    "age": 25,
+    "gender": "Male",
+    "weight": 65.0,
+    "height": 165.0,
+    "blood_group": "O-",
+    "existing_conditions": [
+      "None"
+    ],
+    "allergies": "",
+    "joined": "25 Oct 2026",
+    "water_intake": 0,
+    "meal_tracker": {
+      "Breakfast": false,
+      "Lunch": false,
+      "Dinner": false,
+      "Snacks": false
+    },
+    "ai_diet_enabled": false
+  },
+  "health_logs": [],
+  "chat_history": [
+    {
+      "role": "assistant",
+      "content": "Hi harshit! 👋 I'm HealthMate, your personal AI health assistant! I've noted your profile and I'm ready to help you.\n\nYou can **tell me about any symptoms you're feeling**, ask health questions, or type **'diet plan'** to see your personalized nutrition plan.\n\nHow are you feeling today? 😊",
+      "timestamp": "02:31"
+    },
+    {
+      "role": "user",
+      "content": "headche",
+      "timestamp": "02:32"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi harshit! 🩺 I've noted that you are experiencing **headache**.\n\nTo help me narrow down what might be going on, could you share a bit more detail? \nFor example:\n• 📅 How long have you had these symptoms?\n• 🤒 Do you have a fever, nausea, or other accompanying signs?\n• ⚡ Is the sensation constant, or does it come and go?\n\n🌿 **General Care Recommendations for headache:**\n• **Rest & Recovery:** Give your body plenty of rest to support natural healing.\n• **Hydration:** Drink plenty of warm water or fluids (like coconut water).\n• **Avoid triggers:** Eat light, non-spicy foods, and avoid heavy activity.\n\n💡 *Note: I am running in local clinical database mode to assist you immediately. Please describe your symptoms in more detail so I can check my database for you!*",
+      "timestamp": "02:32"
+    }
+  ],
+  "diagnosed_conditions": []
+}

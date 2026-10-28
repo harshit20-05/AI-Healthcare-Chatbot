@@ -118,7 +118,7 @@ HealthMate-AI/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/HealthMate-AI.git
+git clone https://github.com/harshit20-05/Health-Mate-AI.git
 cd HealthMate-AI
 ```
 
@@ -255,9 +255,10 @@ Examples:
 
 # 👨‍💻 Author
 
-**Ankit Chowdhary**
+**Harshit Attri**
 
-B.Tech CSE (Data Science & Machine Learning)
+GitHub: [@harshit20-05](https://github.com/harshit20-05)  
+Email: [attriharshit2005@gmail.com](mailto:attriharshit2005@gmail.com)
 
 Healthcare AI | Machine Learning | NLP | Full-Stack Development
 
