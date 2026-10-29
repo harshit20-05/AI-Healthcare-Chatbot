@@ -137,7 +137,7 @@ RESPONSE RULES:
             return get_fallback_response(user_message, user_profile, symptoms_found, diagnosis)
 
         # Use Google Generative AI with fallback options to handle quota limit (429) gracefully
-        models_to_try = ["gemini-3.5-flash", "gemini-2.5-flash", "gemini-2.0-flash"]
+        models_to_try = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash"]
         response = None
         for model in models_to_try:
             try:
@@ -209,7 +209,7 @@ Return ONLY a valid JSON object strictly matching this exact schema:
 Provide healthy, specific Indian diet recommendations ideal for someone with their profile, described concern, and condition.
 Return ONLY raw JSON, no markdown formatting, no backticks, no extra text."""
 
-    models_to_try = ["gemini-3.5-flash", "gemini-2.5-flash", "gemini-2.0-flash"]
+    models_to_try = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash"]
     response = None
     for model in models_to_try:
         try:
@@ -299,7 +299,7 @@ Select the single best match from this exact list of canonical conditions:
 If no specific clinical condition from the list is active or being addressed, return ONLY "None".
 Return ONLY the raw name of the condition (e.g. "GERD" or "Typhoid") or "None" with no extra punctuation, markdown formatting, or explanations."""
 
-    models_to_try = ["gemini-3.5-flash", "gemini-2.5-flash", "gemini-2.0-flash"]
+    models_to_try = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash"]
     response = None
     for model in models_to_try:
         try:

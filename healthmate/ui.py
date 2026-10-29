@@ -1649,7 +1649,12 @@ def show_chat():
         with send_col:
             send_clicked = st.form_submit_button("Send ➤", width='stretch')
         with mic_col:
-            st.iframe(pathlib.Path("assets/mic_recorder.html"), height=46)
+            try:
+                mic_path = pathlib.Path(__file__).resolve().parent.parent / "assets" / "mic_recorder.html"
+                if mic_path.exists():
+                    st.components.v1.html(mic_path.read_text(encoding="utf-8"), height=46)
+            except Exception:
+                pass
             
     # Process message submission
     if send_clicked and user_input.strip():

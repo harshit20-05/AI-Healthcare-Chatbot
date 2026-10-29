@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment Variables & Secrets (NEVER push keys to GitHub)
+.env
+.streamlit/secrets.toml
+
+# User session data & local logs
+user_data/
+data/user_health_logs.csv
+*.log
+temp_*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
