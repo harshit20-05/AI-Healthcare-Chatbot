@@ -1,5 +1,10 @@
 # 🏥 HealthMate AI
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-healthcare-chatbot-guns7rr.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+
+> 🌐 **Live Web Application:** [ai-healthcare-chatbot-guns7rr.streamlit.app](https://ai-healthcare-chatbot-guns7rr.streamlit.app/)
+
 An AI-powered healthcare assistant that helps users analyze symptoms, predict possible diseases, track health metrics, receive diet recommendations, and interact with an intelligent medical chatbot.
 
 ---
@@ -181,6 +186,12 @@ Replace the values with your actual credentials.
 ---
 
 # ▶️ Running the Application
+
+### 🌐 Live Demo
+You can access the live deployed web app directly without any local setup:
+👉 **[https://ai-healthcare-chatbot-guns7rr.streamlit.app/](https://ai-healthcare-chatbot-guns7rr.streamlit.app/)**
+
+### 💻 Local Run
 
 ```bash
 streamlit run healthmate_chatbot.py
